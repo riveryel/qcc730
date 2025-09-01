@@ -16,8 +16,8 @@ https://docs.qualcomm.com/bundle/publicresource/topics/80-Y8730-2/qcc730_nvm_pro
 
 Generate "nvm_programmer.exe" by below options:
 
-a) Merge binary on Windows by "copy /b nvm_programmeraa + nvm_programmerab nvm_programmer.exe"
+a) On Windows, merge binary: "copy /b nvm_programmeraa + nvm_programmerab nvm_programmer.exe"
 
-b) Merge binary on Linux by "cat nvm_programmeraa nvm_programmerab > nvm_programmer.exe"
+b) On Linux, merge binary: "cat nvm_programmeraa nvm_programmerab > nvm_programmer.exe"
 
 
