@@ -25,7 +25,7 @@ https://docs.qualcomm.com/bundle/publicresource/topics/80-Y8730-2/qcc730_nvm_pro
 # Usage of "nvm_programmer.exe"
 
 Commands
-1) set PACK_ENABLE=True
+1) "set PACK_ENABLE=True", or set environment variable as "PACK_ENABLE=True"
 2) "nvm_programmer.exe -s ch347 -i <FERMION_NVM_PROGRAMMER.elf> sub_cmds"
 
 Usage samples
