@@ -24,7 +24,9 @@ https://docs.qualcomm.com/bundle/publicresource/topics/80-Y8730-2/qcc730_nvm_pro
 
 # Usage of "nvm_programmer.exe"
 
-Command: "nvm_programmer.exe -s ch347 -i <FERMION_NVM_PROGRAMMER.elf> sub_cmds"
+Commands
+1) set PACK_ENABLE=True
+2) "nvm_programmer.exe -s ch347 -i <FERMION_NVM_PROGRAMMER.elf> sub_cmds"
 
 Usage samples
 1) "nvm_programmer.exe -s ch347 -i <FERMION_NVM_PROGRAMMER.elf> --nvm-name rram -b 0x20A400 -f <FERMION_SBL_HASHED.elf>"
